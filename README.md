@@ -1,6 +1,5 @@
 # Revolt Motors Voice Assistant
 
-![Revolt Motors Logo](https://revoltmotors.com/wp-content/uploads/2022/05/Revolt-Logo.svg)  
 *A voice-controlled AI assistant for Revolt Motors customers*
 
 ## 🚀 Features
@@ -23,18 +22,5 @@
 ### Prerequisites
 - Node.js v18+
 - Google Gemini API key
-
-### Project Structure
-revolt-voice-bot/
-├── backend/
-│   ├── controllers/     # Route handlers
-│   ├── routes/          # API endpoints  
-│   ├── services/        # Gemini integration
-│   └── app.js           # Express server
-└── frontend/
-    ├── src/
-    │   ├── components/  # React components
-    │   └── assets/      # Images/audio
-    └── vite.config.js   # Frontend config
 
 Developed with ❤️ for Revolt Motors
