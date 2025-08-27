@@ -1,3 +1,4 @@
+// components/VoiceInput/VoiceInput.jsx
 import { useState } from "react";
 import {
   Card,
@@ -19,7 +20,7 @@ import StopIcon from "@mui/icons-material/Stop";
 import robotFace from "../assets/robot-face.png";
 import { getRevoltInstructions } from "./Instructions/RevoltInstructions";
 import { useSpeechRecognition } from "../hooks/useSpeechRecognition";
-import { useSpeechSynthesis } from "../hooks/useSpeechSynthesis";
+import { useSpeechSynthesis } from "../hooks/";
 
 const VoiceInput = () => {
   const [transcript, setTranscript] = useState("");
